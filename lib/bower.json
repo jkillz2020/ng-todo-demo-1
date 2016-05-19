@@ -1,0 +1,15 @@
+{
+  "name": "ng-todo-demo",
+  "description": "",
+  "main": "index.js",
+  "license": "MIT",
+  "homepage": "https://github.com/zoeames/ng-todo-demo",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

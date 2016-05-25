@@ -10,24 +10,24 @@ app.factory("itemStorage", function($q, $http){
 					Object.keys(itemCollection).forEach(function(key){
 						itemCollection[key].id=key;
 						items.push(itemCollection[key]);
-					})
+					});
 					resolve(items);
 				})
 				.error(function(error){
 					reject(error);
 				});
-		})
-	}
+		});
+	};
 
 	var deleteItem = function(itemId){
 		return $q(function(resolve, reject){
 			$http
             	.delete(`https://todo-appz2.firebaseio.com/items/${itemId}.json`)
             	.success(function(objectFromFirebase){
-            		resolve(objectFromFirebase)
-            	})
-		})
-	}
+            		resolve(objectFromFirebase);
+            	});
+		});
+	};
 
 	var postNewItem = function(newItem){
         return $q(function(resolve, reject) {
@@ -49,8 +49,8 @@ app.factory("itemStorage", function($q, $http){
                 }
             );
         });
-	}
+	};
 
-	return {getItemList:getItemList, deleteItem:deleteItem, postNewItem:postNewItem}
+	return {getItemList:getItemList, deleteItem:deleteItem, postNewItem:postNewItem};
 
-})
+});

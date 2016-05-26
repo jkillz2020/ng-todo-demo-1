@@ -6,9 +6,6 @@ app.controller("ItemListCtrl", function($scope, $location, itemStorage){
         $scope.items = itemCollection;
     });
 
-
-
-
     $scope.itemDelete = function(itemId){
         console.log("itemId", itemId);
         itemStorage.deleteItem(itemId).then(function(response){
@@ -17,4 +14,14 @@ app.controller("ItemListCtrl", function($scope, $location, itemStorage){
             });
         });
     };
+
+    $scope.inputChange = function(item){
+        itemStorage.updateCompletedStatus(item)
+            .then(function(response){
+                console.log(response);
+            })
+    }
+
+
+
 });

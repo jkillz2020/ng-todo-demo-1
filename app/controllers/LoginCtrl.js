@@ -3,6 +3,8 @@
 app.controller("LoginCtrl", function($scope, $location, firebaseURL, AuthFactory){
 	let ref = new Firebase(firebaseURL);
 
+	// $scope.hasUser = false;
+
 	$scope.account = {
 		email: "",
 		password: ""
@@ -36,6 +38,7 @@ app.controller("LoginCtrl", function($scope, $location, firebaseURL, AuthFactory
 		AuthFactory
 			.authenticate($scope.account)
 			.then(() => {
+				// $scope.hasUser = true;
 				$location.path("/");
 				$scope.$apply();
 			})

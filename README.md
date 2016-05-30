@@ -5,9 +5,7 @@
 This app allows users to log in and create todo itmes.  Once created the items can be deleated, edited, and marked complete.  
 
 ### Screenshots
-![Image1](https://raw.githubusercontent.com/zoeames/capstone2/master/docs/screenshots/profile.png)
-![Image2](https://raw.githubusercontent.com/zoeames/capstone2/master/docs/screenshots/vote.png)
-
+![Image1](https://raw.githubusercontent.com/zoeames/ng-todo-demo/master/img/todo.png)
 
 ### To run:
 ```

@@ -7,7 +7,8 @@
           "assignedTo": "greg",
           "location": "Zoe's house",
           "urgency": "low",
-          "dependencies": "sunshine, clippers, hat, water, headphones"
+          "dependencies": "sunshine, clippers, hat, water, headphones",
+          "uid":"d414cde4-f149-4a8d-99ef-4589767fa94d"
         },
     "item1":{
           "task": "grade quizzes",
@@ -16,7 +17,8 @@
           "assignedTo": "Joe",
           "location": "NSS",
           "urgency": "high",
-          "dependencies": "wifi, tissues, vodka"
+          "dependencies": "wifi, tissues, vodka",
+          "uid":"d414cde4-f149-4a8d-99ef-4589767fa94d"
         },
     "item2":{
           "task": "take a nap",
@@ -25,7 +27,8 @@
           "assignedTo": "zoe",
           "location": "Zoe's house",
           "urgency": "medium",
-          "dependencies": "hammock, cat, pillow, blanket"
+          "dependencies": "hammock, cat, pillow, blanket",
+          "uid":"d414cde4-f149-4a8d-99ef-4589767fa94d"
         }
     }
 }

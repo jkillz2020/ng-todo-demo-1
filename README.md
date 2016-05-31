@@ -2,7 +2,7 @@
 
 
 ### Description:  
-This app allows users to log in and create todo itmes.  Once created the items can be deleated, edited, and marked complete.  
+This app allows users to log in and create todo items.  Once created, the items can be deleted, edited, and marked complete.  
 
 ### Screenshots
 ![Image1](https://raw.githubusercontent.com/zoeames/ng-todo-demo/master/img/todo.png)
